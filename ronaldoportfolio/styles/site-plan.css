@@ -174,3 +174,29 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+/*Portfolio.html*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  background-color:#023047;
+  color:#F0FBFF;
+}
+
+footer a {
+  color: #8ecae6;
+  text-decoration: none;
+  padding: 25px 50px;
+}
+
+footer a:hover {
+  color: #ffb703;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
