@@ -208,6 +208,65 @@ form {
     background-color: #45a049;
   }
 
+
+/*PROJECTS*/
+
+#projects-title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.project {
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #a4cdf4;
+}
+
+.project img {
+    
+}
+
+.project a {
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #001D3D;
+    font-weight: bold;
+    justify-content: flex-end;
+    transition: color 0.3s;
+    align-self: flex-end;
+}
+
+.project a:hover {
+    color: #FFC300;
+    text-shadow: 1px 1px 1px #001D3D;
+}
+
+.project p {
+    text-align: justify;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #003566;
+}
+
 /*RESPONSIVE DESIGN*/
 
 
