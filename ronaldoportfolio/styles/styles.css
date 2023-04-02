@@ -209,19 +209,31 @@ form {
   }
 
 
-/*PROJECTS*/
+/*PROJECTS AND COURSES*/
 
-#projects-title {
+#projects-title,
+#courses-title {
     font-size: 50px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
     text-align: center;
     margin: 50px;
+    text-shadow: 2px 2px 0px #FFD60A;
 }
 
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 30px;
     width: 80%;
@@ -238,11 +250,26 @@ form {
     background-color: #a4cdf4;
 }
 
-.project img {
-    
+.course{
+    width: 90%;
+    height: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #a4cdf4;
 }
 
-.project a {
+
+.course img {
+    display: block;
+    float: left;
+    width: 150px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.project a,
+.course a {
     text-decoration: none;
     text-align: center;
     margin: 10px;
@@ -255,16 +282,23 @@ form {
     align-self: flex-end;
 }
 
-.project a:hover {
+.project a:hover,
+.course a:hover {
     color: #FFC300;
     text-shadow: 1px 1px 1px #001D3D;
 }
 
-.project p {
+.project p,
+.course p {
     text-align: justify;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 20px;
     color: #003566;
+    margin: 10px;
+}
+
+.course p {
+    text-align: right;
 }
 
 /*RESPONSIVE DESIGN*/
